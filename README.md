@@ -9,7 +9,7 @@ It includes:
 - 🔗 Social links (GitHub, LinkedIn, LeetCode, etc.)
 
 ### 🌐 Live Demo
-[Click here to view it live](https://your-netlify-link.netlify.app)
+[Click here to view it live](https://advait-kulkarni-portfolio.netlify.app/)
 
 ---
 
