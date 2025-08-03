@@ -65,7 +65,7 @@ document.querySelectorAll('.project-card').forEach(card => {
 });
 
 // Typing effect for hero section
-const roles = ['Full Stack Developer', 'MERN Stack Expert', 'React Specialist', 'Node.js Developer'];
+const roles = ['Full Stack Web Developer', 'Backend Developer', 'Optimizing with Algorithms', 'Building Real-World Projects'];
 let currentRole = 0;
 let currentChar = 0;
 let isDeleting = false;
