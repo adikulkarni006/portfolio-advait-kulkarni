@@ -332,6 +332,39 @@ section {
     color: #667eea;
 }
 
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+    .projects-grid {
+    grid-template-columns: 1fr; /* Stack project cards vertically */
+    gap: 1rem;
+}
+
+    .project-card {
+    border-radius: 10px;
+}
+
+    .project-image {
+    height: 250px; /* Adjust height for smaller screens */
+}
+
+    .project-info {
+    padding: 1rem;
+}
+
+    .project-title {
+    font-size: 1.1rem;
+}
+
+    .project-desc {
+    font-size: 0.9rem;
+}
+
+    .tech-tag {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.5rem;
+}
+}
+
 /* Contact Section */
 .contact-content {
     display: grid;
