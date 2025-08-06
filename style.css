@@ -12,6 +12,9 @@ body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: #333;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* ✅ Prevent horizontal scroll */
     background: linear-gradient(-45deg, #667eea, #764ba2, #f093fb, #f5576c);
     background-size: 400% 400%;
     animation: gradientBG 15s ease infinite;
@@ -527,4 +530,53 @@ footer {
 .fade-in.visible {
     opacity: 1;
     transform: translateY(0);
+}
+
+@media (max-width: 500px) {
+    section {
+    padding: 2rem 1rem;  /* Reduce top/bottom & side padding */
+    margin: 1rem 0.5rem; /* Reduce margin for smaller screens */
+    border-radius: 10px;
+}
+
+.container {
+    padding: 0 10px; /* Reduce side padding */
+}
+
+body {
+    overflow-x: hidden; /* Prevent any horizontal scrolling */
+}
+
+.hero-content {
+    padding: 0 1rem;
+}
+
+.project-image {
+    height: auto; /* Allow image height to adjust naturally */
+}
+}
+
+@media (max-width: 500px) {
+.hero h1 {
+    font-size: 2rem;
+}
+
+.hero p {
+    font-size: 1rem;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
+}
+
+.tech-stack {
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.tech-badge {
+    font-size: 0.75rem;
+    padding: 0.4rem 0.8rem;
+}
 }
