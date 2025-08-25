@@ -202,9 +202,13 @@ section {
     transition: color 0.3s, transform 0.3s;
 }
 
-.social-links a:hover i {
+.social-links, .f-info a:hover i {
     color: #764ba2;
     transform: scale(1.2);
+}
+
+i:hover {
+    transform: translateY(-5px)
 }
 
 /* About Section */
@@ -450,7 +454,7 @@ footer {
     color: #764ba2;
 }
 
-.f-info-links, .f-info-socials, .f-info-brand  {
+.f-info-links, .f-info-socials, .f-info-brand {
     width: 100%;
     display: flex;
     align-items: center;
@@ -473,8 +477,12 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    font-size: large;
-    gap: 1rem;
+    font-size: x-large;
+    gap: 1.3rem;
+}
+
+.fa-brands, .fa-solid {
+    color: #764ba2;
 }
 
 /* Animations */
