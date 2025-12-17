@@ -642,20 +642,20 @@ footer {
   display: flex !important;
   align-items: center;
   justify-content: center;
-  margin-top: 16px;
   padding: 14px 18px;
-  border-radius: 10px;
+  border-radius: 12px;
   font-size: 14px;
   font-weight: 500;
-  color: #112240;
-  background: #64ffda;
+  letter-spacing: 0.2px;
+  color: #64FFDA;
+  background: #112240;
   border: 1px solid rgba(100, 255, 218, 0.6);
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
 }
 
 /* Replace default text */
 .pageclip-form__success::before {
-  content: "Message sent successfully. I’ll get back to you shortly.";
+  content: "Your message has been sent. I’ll get back to you soon.";
 }
 
 /* Hide Pageclip default text */
@@ -663,3 +663,8 @@ footer {
   display: none;
 }
 
+.pageclip-form__success::after {
+  content: "✔";
+  margin-left: 6px;
+  font-size: 14px;
+}
