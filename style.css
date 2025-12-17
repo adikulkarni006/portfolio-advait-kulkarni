@@ -647,13 +647,9 @@ footer {
   border-radius: 10px;
   font-size: 14px;
   font-weight: 500;
-  color: #1f8f6b;
-  background: linear-gradient(
-    135deg,
-    rgba(31, 143, 107, 0.12),
-    rgba(31, 143, 107, 0.06)
-  );
-  border: 1px solid rgba(31, 143, 107, 0.25);
+  color: #112240;
+  background: #64ffda;
+  border: 1px solid rgba(100, 255, 218, 0.6);
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
 }
 
@@ -666,3 +662,4 @@ footer {
 .pageclip-form__success span {
   display: none;
 }
+
