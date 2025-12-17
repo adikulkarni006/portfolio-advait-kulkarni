@@ -634,4 +634,35 @@ footer {
         gap: 10px;
         text-align: center;
     }
+
+}
+
+/* Professional success message */
+.pageclip-form__success {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+  padding: 14px 18px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1f8f6b;
+  background: linear-gradient(
+    135deg,
+    rgba(31, 143, 107, 0.12),
+    rgba(31, 143, 107, 0.06)
+  );
+  border: 1px solid rgba(31, 143, 107, 0.25);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+/* Replace default text */
+.pageclip-form__success::before {
+  content: "Message sent successfully. I’ll get back to you shortly.";
+}
+
+/* Hide Pageclip default text */
+.pageclip-form__success span {
+  display: none;
 }
