@@ -647,8 +647,8 @@ footer {
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.2px;
-  color: #64FFDA;
-  background: #112240;
+  color: #64FFDA !important;
+  background: #112240 !important;
   border: 1px solid rgba(100, 255, 218, 0.6);
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
 }
@@ -660,7 +660,7 @@ footer {
 
 /* Hide Pageclip default text */
 .pageclip-form__success span {
-  display: none;
+  display: none !important;
 }
 
 .pageclip-form__success::after {
