@@ -8,6 +8,7 @@
     <meta name="description" content="Professional portfolio of John Doe, a web developer specializing in front-end development.">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -283,7 +284,11 @@
                         </div>
                     </div>
                     <div class="contact-form">
-                        <form id="contactForm">
+                        <form
+                        action="https://send.pageclip.co/7RaYiHtlAoyePNFeij6huoGx7wo7vFDv"
+                        class="pageclip-form"
+                        method="post">
+
                             <div class="form-group">
                                 <label for="name">Name</label>
                                 <input type="text" id="name" name="name" required>
@@ -300,7 +305,9 @@
                                 <label for="message">Message</label>
                                 <textarea id="message" name="message" rows="5" required></textarea>
                             </div>
-                            <button type="submit" class="btn primary-btn">Send Message</button>
+                           <button type="submit" class="btn primary-btn pageclip-form__submit">
+                              <span>Send Message</span>
+                            </button>
                         </form>
                     </div>
                 </div>
@@ -354,6 +361,8 @@
       })();
     </script>
     <script src="script.js"></script>
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 </body>
 
 </html>
+
